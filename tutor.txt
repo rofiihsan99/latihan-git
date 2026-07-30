@@ -1,0 +1,13 @@
+cara up file ke gh web lewat gh cli
+
+ versi low
+
+ git status
+ git add .
+ git commit -m "nama pembaruan"
+ git push origin main
+
+ versi high
+
+git commit -am "nama pembaruan"
+git push origin main
