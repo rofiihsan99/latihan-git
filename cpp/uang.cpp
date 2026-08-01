@@ -1,28 +1,18 @@
-
-
-
-
-/*
 #include <iostream>
+using namespace std;
 
-int main()
-{
-	double selisih = 7500.0;
+int main() {
 	
-	// Berdasarkan persamaan aljabar:
-	// A - B = selisih  =>  B = A - selisih
-	// (B + 0.1 * A) = 0.8 * A  =>  (A - selisih) + 0.1 * A = 0.8 * A
-	// 1.1 * A - selisih = 0.8 * A
-	// 0.3 * A = selisih
-	
-	double uang_ani = selisih / 0.3;
-	double uang_budi = uang_ani - selisih;
-	double jumlah_uang = uang_ani + uang_budi;
-	
-	std::cout << "Uang Ani: Rp " << uang_ani << std::endl;
-	std::cout << "Uang Budi: Rp " << uang_budi << std::endl;
-	std::cout << "Jumlah uang keduanya: Rp " << jumlah_uang << std::endl;
-	
-	return 0;
+double selisih = 7500.0;
+
+// persamaan al jabar
+double uangAli = selisih / 0.3;
+double uangAldo = uangAli - selisih;
+double jumlahUang = uangAli + uangAldo;
+
+cout << "uang ali	: Rp " << uangAli << endl;
+cout << "uang aldo	: Rp " << uangAldo << endl;
+cout << endl;
+cout << "Jumlah uang mereka : Rp " << jumlahUang << endl;
+
 }
-*/
