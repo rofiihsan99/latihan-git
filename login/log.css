@@ -111,7 +111,6 @@ body {
 	text-decoration: underline;
 }
 
-/* Menyesuaikan selector tombol agar sesuai dengan kelas .bt pada HTML */
 .login-container .bt {
 	width: 100%;
 	height: 45px;
