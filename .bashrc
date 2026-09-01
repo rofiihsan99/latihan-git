@@ -42,6 +42,11 @@ alias file='cd /media/linuxmint/3cea4674-764e-40af-8eab-c81f32c1e3aa/kode'
 alias cpp='cd /media/linuxmint/3cea4674-764e-40af-8eab-c81f32c1e3aa/kode/cpp'
 alias jas='cd /media/linuxmint/3cea4674-764e-40af-8eab-c81f32c1e3aa/kode/js'
 
+# xampp
+alias xampp-gui='sudo /opt/lampp/manager-linux-x64.run'
+alias xampp-start='sudo /opt/lampp/lampp start'
+alias xampp-stop='sudo /opt/lampp/lampp stop'
+
 # update system & flatpak
 up()
 {
